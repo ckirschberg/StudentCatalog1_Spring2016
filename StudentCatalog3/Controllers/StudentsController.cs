@@ -1,4 +1,5 @@
 ﻿using StudentCatalog3.Models;
+using StudentCatalog3.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -11,17 +12,18 @@ namespace StudentCatalog2.Controllers
     public class StudentsController : Controller
     {
         //quick - and dirty - D.I. later
-        ApplicationDbContext db =
-                    new ApplicationDbContext();
+        //ApplicationDbContext db =
+        //            new ApplicationDbContext();
+        StudentRepository studentRepo = 
+            new StudentRepository();
+
 
         // GET: Students
         //action method
         public ActionResult Index()
         {
-            List<Student> students = 
-                db.Students.ToList();
-
-            return View(students);
+           
+            return View(studentRepo.GetAll());
         }
 
         public string WannaPlayDad()
@@ -41,18 +43,16 @@ namespace StudentCatalog2.Controllers
         {
             //Find the student from the id 
             //and send to view.
-            Student student = db.Students.Find(id);
-            return View(student);
+
+            return View(studentRepo.Find(id));
         }
 
         [HttpPost]
         public ActionResult Edit(Student student)
         {
             //set it to update the student object when you save
-            if (ModelState.IsValid) { 
-                db.Entry(student).State = 
-                    EntityState.Modified;
-                db.SaveChanges();
+            if (ModelState.IsValid) {
+                studentRepo.InsertOrUpdate(student);
                 return RedirectToAction("Index");
             }
             return View();
@@ -71,9 +71,7 @@ namespace StudentCatalog2.Controllers
             //if no broken rules, defined in student
             if (ModelState.IsValid)
             {
-                db.Students.Add(student);
-                db.SaveChanges();
-
+                studentRepo.InsertOrUpdate(student);
                 return View("Thanks");
             }
             return View();

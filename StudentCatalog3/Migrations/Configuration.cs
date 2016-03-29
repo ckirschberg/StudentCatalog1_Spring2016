@@ -1,5 +1,6 @@
 namespace StudentCatalog3.Migrations
 {
+    using Models;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -20,13 +21,25 @@ namespace StudentCatalog3.Migrations
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data. E.g.
             //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
+            //context.People.AddOrUpdate(
+            //  p => p.FullName,
+            //  new Person { FullName = "Andrew Peters" },
+            //  new Person { FullName = "Brice Lambson" },
+            //  new Person { FullName = "Rowan Miller" }
+            //);
+
+
+            context.Students.AddOrUpdate(
+                  p => p.Email, new Student[] {
+                    new Student
+                    { Firstname = "Andrew", Lastname="Something",
+                        Email ="fkja@jdkfa.dk", MobilePhone="13212321" },
+
+                      new Student { Firstname = "Claus", Lastname="Bové",
+                          Email ="clbo@kea.dk", MobilePhone="313212321" },
+                });
+
+
         }
     }
 }

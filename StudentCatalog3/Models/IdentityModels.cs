@@ -31,5 +31,7 @@ namespace StudentCatalog3.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<CompetencyHeader> CompetencyHeaders { get; set; }
     }
 }
