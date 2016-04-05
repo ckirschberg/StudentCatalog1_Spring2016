@@ -11,11 +11,11 @@ namespace StudentCatalog2.Controllers
 {
     public class StudentsController : Controller
     {
-        //quick - and dirty - D.I. later
-        //ApplicationDbContext db =
-        //            new ApplicationDbContext();
-        StudentRepository studentRepo = 
-            new StudentRepository();
+        private IStudentRepository studentRepo;
+        public StudentsController(IStudentRepository repo)
+        {
+            studentRepo = repo;
+        }
 
 
         // GET: Students

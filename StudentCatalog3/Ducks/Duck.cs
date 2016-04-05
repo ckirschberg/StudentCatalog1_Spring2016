@@ -8,24 +8,22 @@ namespace StudentCatalog3.Ducks
     public abstract class Duck
     {
         private IFly flyBehavior;
-
         public Duck(IFly fly)
         {
-            this.flyBehavior = fly;
+            flyBehavior = fly;
         }
 
         public void Fly()
         {
-            this.flyBehavior.Fly();
+            flyBehavior.Fly();
         }
 
 
+        public abstract void Display(); 
         public void Quack()
         {
-            Console.Write("Quack");
+            Console.WriteLine("Quack quack, I am a duck");
         }
-
-        public abstract void Display();
 
 
     }

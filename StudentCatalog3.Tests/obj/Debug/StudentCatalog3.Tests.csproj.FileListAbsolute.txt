@@ -13,7 +13,6 @@ C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\Student
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\StudentCatalog3.Tests.dll
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\StudentCatalog3.Tests.pdb
-C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\StudentCatalog3.dll
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\Microsoft.Owin.dll
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\System.Web.Mvc.dll
@@ -49,3 +48,9 @@ C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\Student
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\obj\Debug\StudentCatalog3.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\obj\Debug\StudentCatalog3.Tests.dll
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\obj\Debug\StudentCatalog3.Tests.pdb
+C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\StudentCatalog3.Tests.dll.config
+C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\WebActivatorEx.dll
+C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\Ninject.Web.Common.dll
+C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\Ninject.dll
+C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\Ninject.Web.Common.xml
+C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\Ninject.xml

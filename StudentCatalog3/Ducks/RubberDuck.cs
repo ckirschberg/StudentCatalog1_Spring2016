@@ -9,11 +9,11 @@ namespace StudentCatalog3.Ducks
     {
         public RubberDuck(IFly fly) : base(fly)
         {
-
         }
+
         public override void Display()
         {
-            Console.Write("I am a rubber duck. Squick");
+            Console.WriteLine("I am a rubber duck");
         }
     }
 }

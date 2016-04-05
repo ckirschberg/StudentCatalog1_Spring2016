@@ -7,14 +7,13 @@ namespace StudentCatalog3.Ducks
 {
     public class RedheadDuck : Duck
     {
-        public RedheadDuck(IFly fly) : base(fly)
+        public RedheadDuck(IFly flyBehavior) : base(flyBehavior)
         {
-
         }
 
         public override void Display()
         {
-            Console.Write("I am a redhead duck");
+            Console.WriteLine("I am a redhead duck.");
         }
     }
 }

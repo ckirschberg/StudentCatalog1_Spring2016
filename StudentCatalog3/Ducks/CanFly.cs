@@ -5,18 +5,11 @@ using System.Web;
 
 namespace StudentCatalog3.Ducks
 {
-    public class FlyBehavior : IFly
+    public class CanFly : IFly
     {
         public void Fly()
         {
-            Console.Write("Uhhhuuuii, I am flying");
+            Console.WriteLine("Wuhuuuiiiii, I am flying!");
         }
     }
 }
-
-
-
-
-
-
-

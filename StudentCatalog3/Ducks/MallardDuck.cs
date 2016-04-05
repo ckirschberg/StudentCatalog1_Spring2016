@@ -7,14 +7,13 @@ namespace StudentCatalog3.Ducks
 {
     public class MallardDuck : Duck
     {
-        public MallardDuck(IFly fly) : base(fly) //C#
+        public MallardDuck(IFly fly) : base(fly)
         {
-            //super(fly) Java
         }
 
         public override void Display()
         {
-            Console.Write("I am a Mallard Duck");
+            Console.Write("I am a Mallard duck (and quite happy about it).");
         }
     }
 }
