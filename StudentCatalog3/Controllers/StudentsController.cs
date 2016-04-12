@@ -22,7 +22,7 @@ namespace StudentCatalog2.Controllers
         //action method
         public ActionResult Index()
         {
-           
+
             return View(studentRepo.GetAll());
         }
 
@@ -77,5 +77,13 @@ namespace StudentCatalog2.Controllers
             return View();
 
         }
+
+        public ActionResult Delete(int id)
+        {
+            Student student = studentRepo.Find(id);
+            
+        }
+
+
     }
 }

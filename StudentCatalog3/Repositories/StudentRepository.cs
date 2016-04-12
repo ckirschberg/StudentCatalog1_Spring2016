@@ -11,6 +11,8 @@ namespace StudentCatalog3.Repositories
     {
         ApplicationDbContext db = new ApplicationDbContext();
 
+        
+
         public void Delete(int id)
         {
             Student student = db.Students.Find(id);

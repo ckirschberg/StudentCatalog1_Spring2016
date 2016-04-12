@@ -15,7 +15,6 @@ C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\Student
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\StudentCatalog3.Tests.pdb
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\StudentCatalog3.dll
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\Microsoft.Owin.dll
-C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\System.Web.Mvc.dll
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\System.Web.Optimization.dll
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
@@ -54,3 +53,5 @@ C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\Student
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\Ninject.dll
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\Ninject.Web.Common.xml
 C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\Ninject.xml
+C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\Moq.dll
+C:\Users\Christian\Documents\Visual Studio 2015\Projects\StudentCatalog3\StudentCatalog3.Tests\bin\Debug\Moq.xml

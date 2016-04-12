@@ -14,6 +14,19 @@ namespace StudentCatalog3.Tests
             to = new DateTime(2016, 6, 20)
         };
 
+
+        [TestMethod]
+        public void Test_BeforeSpan_ShouldReturnFalse()
+        {
+            //Arrange
+            //Act
+            //Assert
+            //Assert.IsFalse(DateSpan.IsOverlap(new DateTime(2015, 1, 1), new DateTime(2016, 4, 4)));
+        }
+
+
+
+
         [TestMethod]
         public void TestMethod1()
         {
@@ -22,9 +35,9 @@ namespace StudentCatalog3.Tests
             //Assert
             Boolean result = span.IsOverlap(
                 new DateTime(2016, 1, 1),
-                new DateTime(2016, 1, 20));
+                new DateTime(2016, 8, 20));
 
-            Assert.IsFalse(result);    
+            Assert.IsTrue(result);    
         }
         [TestMethod]
         public void TestMethod2()
